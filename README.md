@@ -17,6 +17,10 @@
 
 A proposta do **Despenza** é eliminar o desperdício e a desorganização no gerenciamento de alimentos e itens de uso doméstico, tornando o processo de reposição mais prático, econômico e automatizado.
 
+## 🚧 Status do Projeto
+
+O front-end está atualmente em fase de prototipação.
+
 ## 🚫 Licença
 
 Este projeto é proprietário. **Todos os direitos reservados.**  
