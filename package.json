@@ -1,0 +1,25 @@
+{
+  "name": "despenza",
+  "version": "1.0.0",
+  "description": "Despenza é uma plataforma para controle doméstico de estoque de alimentos e produtos de despensa.",
+  "keywords": [
+    "despensa",
+    "controle",
+    "inteligente"
+  ],
+  "homepage": "https://github.com/devmathsena/despenza#readme",
+  "bugs": {
+    "url": "https://github.com/devmathsena/despenza/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmathsena/despenza.git"
+  },
+  "license": "ISC",
+  "author": "Matheus Sena",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
