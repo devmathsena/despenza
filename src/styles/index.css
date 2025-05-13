@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #1E1E24;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    background: #2A2A31;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside .logo {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+aside nav a {
+    text-decoration: none;
+    color: #cfcfcf;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside nav a:hover,
+aside nav a.active {
+    background-color: #3B3B45;
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+    background: #1E1E24;
+}
+
+.dashboard-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.card.blue {
+    background: #1A73E8;
+}
+
+.card h3 {
+    font-size: 1em;
+    opacity: 0.7;
+}
+
+.card h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.card span {
+    font-size: 0.9em;
+    color: #9ff;
+}
+
+.chart-section {
+    background-color: #2A2A31;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.chart-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-tabs span {
+    color: #aaa;
+    cursor: pointer;
+}
+
+.chart-tabs .active {
+    color: #B983FF;
+    font-weight: bold;
+}
+
+.chart {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, #2A2A31, #2A2A31);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 1.2em;
+}
