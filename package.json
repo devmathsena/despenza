@@ -17,10 +17,10 @@
   },
   "license": "ISC",
   "author": "Matheus Sena",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
