@@ -59,6 +59,7 @@ main {
 .card {
     flex: 1;
     background-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 15px;
     color: white;
@@ -115,4 +116,70 @@ main {
     justify-content: center;
     color: #aaa;
     font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    padding: 10px 20px;
+    min-height: 50px;
+  }
+
+  aside .logo {
+    margin-bottom: 0;
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+
+  aside nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  aside nav a {
+    white-space: nowrap;
+    padding: 8px 12px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .chart-section {
+  padding: 15px;
+}
+
+.chart-tabs {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge */
+}
+
+.chart-tabs::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.chart-tabs span {
+  flex-shrink: 0;
+}
+
 }
