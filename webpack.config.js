@@ -32,7 +32,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            favicon: './src/assets/depenza-icon.png'
+            favicon: './src/assets/depenza-icon.png',
+            filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/products.html',
+            filename: 'products.html'
         })
     ]
 }
