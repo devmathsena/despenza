@@ -240,7 +240,7 @@ main {
   display: inline-block;
 }
 
-.tag.low-stock {
+.tag.out-stock {
   background-color: #e53935;
   color: white;
 }
