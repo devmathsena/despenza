@@ -244,3 +244,9 @@ main {
   background-color: #e53935;
   color: white;
 }
+
+.tag.low-stock {
+  background-color: #ca7404;
+  color: white;
+}
+
