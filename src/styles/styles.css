@@ -240,7 +240,17 @@ main {
   display: inline-block;
 }
 
-.tag.low-stock {
+.tag.out-stock {
   background-color: #e53935;
+  color: white;
+}
+
+.tag.low-stock {
+  background-color: #ca7404;
+  color: white;
+}
+
+.tag.ok-stock {
+  background-color: #009e2f;
   color: white;
 }
